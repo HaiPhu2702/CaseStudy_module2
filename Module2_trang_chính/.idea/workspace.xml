@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="193593cd-396f-4768-beab-05c74ed3887e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Module2_CRUD/ts/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeJS/NodeJs_youtube_Henry_Web_Dev/models/user.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeJS/NodeJs_youtube_Henry_Web_Dev/routes/user.route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeJS/NodeJs_youtube_Henry_Web_Dev/views/about.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeJS/NodeJs_youtube_Henry_Web_Dev/views/home.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeJS/NodeJs_youtube_Henry_Web_Dev/views/layouts/main.hbs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+        <option value="tsconfig.json" />
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29YfSEbGQGHsFwUDHX1xS1StFum" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.15.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.36" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\Module2_quanly\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\Module2_trang_chính" />
+      <recent name="C:\Users\ADMIN\Desktop\Module2_trang_chính\ts" />
+      <recent name="C:\Users\ADMIN\Desktop\Module2_trang_chính\html" />
+      <recent name="C:\Users\ADMIN\Desktop\Module2_quanly\public\js\pages" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../Module2_CRUD/public/Main.js" working-dir="$PROJECT_DIR$/../Module2_CRUD/public">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Main.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="193593cd-396f-4768-beab-05c74ed3887e" name="Changes" comment="" />
+      <created>1653294939821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653294939821</updated>
+      <workItem from="1653294941188" duration="2277000" />
+      <workItem from="1653298652470" duration="3193000" />
+      <workItem from="1653310154846" duration="673000" />
+      <workItem from="1653310845531" duration="1542000" />
+      <workItem from="1653312412689" duration="2139000" />
+      <workItem from="1653314582797" duration="4189000" />
+      <workItem from="1653318818347" duration="1467000" />
+      <workItem from="1653320312227" duration="54000" />
+      <workItem from="1653320382285" duration="168000" />
+      <workItem from="1653320563934" duration="693000" />
+      <workItem from="1653321276209" duration="57000" />
+      <workItem from="1653321868361" duration="1023000" />
+      <workItem from="1653322910030" duration="995000" />
+      <workItem from="1653323927579" duration="753000" />
+      <workItem from="1653324697878" duration="64000" />
+      <workItem from="1653358218655" duration="197000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

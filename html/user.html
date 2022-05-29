@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản Lý Sản Phẩm</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div>
+
+
+                    <h4 id="themSP">Update</h4>
+
+
+                    <div class="form-group">
+
+                        <label for="nameUpdate">Tên</label>
+                        <input type="text" class="form-control" id="nameUpdate" placeholder="tên sản phẩm" required>
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="numberUpdate">Number</label>
+                        <input type="text" class="form-control" id="numberUpdate" placeholder="số lượng" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="companyUpdate">Công Ty Sản Xuất</label>
+                        <textarea class="form-control" id="companyUpdate" rows="3" placeholder="không quá 3 dòng "
+                                  required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dateUpdate">Hạn Sử Dụng</label>
+                        <input type="date" class="form-control" id="dateUpdate" placeholder="hạn sử dụng" required>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="yearUpdate">Năm Sản Xuất</label>
+                        <div class="input-group mb-3">
+                            <select class="custom-select" id="yearUpdate" required>
+                                <option selected>Choose...</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                            </select>
+                            <div class="input-group-append">
+                                <label class="input-group-text" >Options</label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="sendMessage">Send message</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="add-product" class="col-12">
+
+    <div id="main" style="background-image: linear-gradient(180deg,rgba(255,255,255,0.5),rgba(0,76,0,0.5))">
+
+        <h1 style="text-align: center ;color: #0dd960">Quản Lý Sản Phẩm</h1>
+
+        <div id="button" class="d-flex justify-content-between">
+
+
+            <div class="my-4">
+                <a href="../index.html">
+                    <button type="button" class="btn btn-info ml-3"><i style="color: red" class="fa-solid fa-house"></i></button>
+                </a>
+            </div>
+
+
+            <div class="my-4 d-flex">
+                <input id="input" class="form-control mr-sm-2  border border-success" type="search" placeholder="name/number you want "
+                       aria-label="Search" style="border-radius: 20px">
+                <button id="search" class="btn btn-outline-primary my-2 my-sm-0  rounded-circle" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+
+            <div class="my-4">
+                <a href="add.html">
+                    <button type="button" class="btn btn-info mr-4"><i style="color: coral" class="fa-solid fa-folder-plus"></i></button>
+                </a>
+            </div>
+
+
+        </div>
+
+
+        <div id="content">
+
+
+            <table class="table table-hover">
+
+                <thead id="list-head-product">
+                <tr>
+                    <th scope="col" class="text-center" style="color: #0a58ca">ID</th>
+                    <th scope="col" class="text-center" style="color: #0a58ca">Name Product</th>
+                    <th scope="col" class="text-center" style="color: #0a58ca">Number</th>
+                    <th scope="col" class="text-center" style="color: #0a58ca">Company</th>
+                    <th scope="col" class="text-center" style="color: #0a58ca">Expiration Date</th>
+                    <th scope="col" class="text-center" style="color: #0a58ca">Year Of Production</th>
+                    <th scope="col" class="text-center" style="color: #0a58ca" colspan="2">Action</th>
+                </tr>
+                </thead>
+
+
+                <tbody id="list-body-table">
+                <tr>
+                    <td colspan="7">No data</td>
+                </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+        <div class="my-4">
+            <button type="button" class="btn btn-primary" style="display: none" id="backAfterFind">Back</button>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+<script type="module" src="../public/MainUser.js"></script>
+</body>
+</html>
